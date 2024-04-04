@@ -1,0 +1,43 @@
+
+.backImage{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 30px 50px 30px 50px ;
+    border-radius: 25px ;
+    background-color:rgba(12, 12, 12, 0.6);
+    z-index: 0;
+    
+
+    img {
+        
+        width: 1420px;
+        height: 223px;
+        border-radius: 25px ;
+        opacity: 1px;
+        object-fit: cover ;
+        z-index: -1; 
+
+    }
+    h1{
+
+        position:absolute;
+        color: white;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 68.45px;
+        
+        
+
+    }
+
+
+}
+
+
+
+
+

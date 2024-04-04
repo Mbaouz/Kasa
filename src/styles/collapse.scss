@@ -1,0 +1,78 @@
+.collapse-contain{
+     .back-img-about{
+
+         display: flex;
+         justify-content: center;
+         margin : 30px 50px 30px 50px ;
+         border-radius: 25px ;
+         background-color:rgba(12, 12, 12, 0.304);
+         z-index: 0;
+
+
+
+        img {
+
+            height: 223px;
+            border-radius: 25px;
+            width: 1403px;
+            object-fit: cover;
+            z-index: -1; 
+        }
+
+
+
+
+     }
+   
+
+    .collapse-item{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: Hug (54px);
+        padding: 10px 20px 10px 15px;
+        border-radius: 5px;
+        background-color: rgba(255, 96, 96, 1);
+        margin : 30px 50px 0px 50px ;
+
+
+        h3{
+            color:white;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-weight: 700;
+            
+    
+        }
+        .arrow:active{
+
+            
+
+            
+                transform:rotate(90 deg)
+
+
+           
+        }
+       
+        
+
+    }
+
+   
+
+
+    .collapse-text {
+
+        margin : 0px 50px 0px 50px ;
+        font-family: "Montserrat" ;
+        background-color:rgba(246, 246, 246, 1);
+        border-radius: 0px 0px 5px 5px;
+        p{
+            margin: 0;
+            padding: 30px;
+            font-size: 20px;
+        }
+    }
+}
