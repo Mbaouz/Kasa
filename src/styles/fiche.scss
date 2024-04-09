@@ -1,0 +1,151 @@
+
+
+.carousel{
+margin-left: 50px;
+   
+
+ .carousel-img{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+     img {
+
+display: flex;
+margin: 0 auto;
+border-radius: 25px;
+max-width: 1420px;
+width: 1240px;
+height: 415px;
+object-fit: cover;
+
+
+
+     }
+}
+
+ .infos{
+
+    display: flex;
+    justify-content: space-between;
+    h1{
+
+        color: rgba(255, 96, 96, 1);
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 51.34px;
+        margin: 0;  
+    }
+    
+    h2,h3{
+    
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        margin-top: 0;
+        
+    }
+    h3{
+        color: rgba(255, 96, 96, 1);
+        margin-bottom: 0;
+    }
+
+
+}
+ .info-host{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ img{
+  border-radius:50px ;
+  width: 64px;
+  height: 64px;
+ }
+
+
+}
+
+
+ .tags {
+    display: flex;
+    gap:20px;
+
+    .tag{
+        background-color: rgba(255, 96, 96, 1);
+        border-radius: 10px;
+        gap: 20px;
+        display: flex;
+        width:115px;
+        height: auto;
+        justify-content: center;
+        
+    
+        p{
+         color:white;
+         font-family: Montserrat;
+         font-size: 14px;
+         font-weight: 700;
+         line-height: 19.96px;
+         margin: 0 ;
+    
+        }
+    }
+
+}
+
+
+.desc{
+
+    width: 582px;
+    height: 52px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 10px ;
+    background-color:  rgba(255, 96, 96, 1);
+    margin-top: 20px;
+}
+}
+
+//collapse fiche
+
+
+.collapse-item {
+    width: 582px;
+    height: 52px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 10px ;
+    background-color:  rgba(255, 96, 96, 1);
+    margin-top: 20px;
+
+    h4 {
+        color: white;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .arrow {
+        transition: 0.5s;
+
+        &.active {
+            transform: rotate(-180deg)
+        }
+    }}
+
+
+
+
+.collapse-text {
+    margin: 0px 50px 0px 50px;
+    padding: 20px;
+    font-family: "Montserrat";
+    background-color: rgba(246, 246, 246, 1);
+    border-radius: 0px 0px 5px 5px;
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+
+    &.active {
+        height: unset;
+        opacity: 1;
+    }}

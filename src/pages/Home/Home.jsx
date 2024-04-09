@@ -1,21 +1,17 @@
 
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import Title from "../../components/Title";
-import Card from "../../components/Card";
+import Header from "../../Components/Header";
+import Footer from "../../Components/Footer";
+import Title from "../../Components/Title";
+import Card from "../../Components/Card";
 
-const Home = ()  => {
+const Home = () => {
     return (
-<div>
-
-<Header/>
-<Title/>
-<Card/>
-<Footer/>
-
-</div>
-
-        
+        <div>
+            <Header />
+            <Title />
+            <Card />
+            <Footer />
+        </div>
     );
 };
 

@@ -1,32 +1,27 @@
-.collapse-contain{
-     .back-img-about{
 
-         display: flex;
-         justify-content: center;
-         margin : 30px 50px 30px 50px ;
-         border-radius: 25px ;
-         background-color:rgba(12, 12, 12, 0.304);
-         z-index: 0;
-
-
-
+    .back-img-about {
+        display: flex;
+        margin: 0 auto ;
+        border-radius: 25px;
+        background-color: rgba(12, 12, 12, 0.304);
+        z-index: 0;
+        max-width: 1420px;
+        margin: 30px 50px 50px 50px;
+     
         img {
-
+            
             height: 223px;
             border-radius: 25px;
-            width: 1403px;
+            width: 100%;
             object-fit: cover;
-            z-index: -1; 
+            z-index: -1;
+            
+           
         }
+    }
 
 
-
-
-     }
-   
-
-    .collapse-item{
-
+    .collapse-item {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -34,45 +29,38 @@
         padding: 10px 20px 10px 15px;
         border-radius: 5px;
         background-color: rgba(255, 96, 96, 1);
-        margin : 30px 50px 0px 50px ;
+        margin: 20px 50px 0px 50px;
 
-
-        h3{
-            color:white;
+        h3 {
+            color: white;
             font-family: Montserrat;
             font-size: 24px;
             font-weight: 700;
-            
-    
         }
-        .arrow:active{
 
-            
+        .arrow {
+            transition: 0.5s;
 
-            
-                transform:rotate(90 deg)
-
-
-           
+            &.active {
+                transform: rotate(-180deg)
+            }
         }
-       
-        
-
     }
-
-   
-
 
     .collapse-text {
-
-        margin : 0px 50px 0px 50px ;
-        font-family: "Montserrat" ;
-        background-color:rgba(246, 246, 246, 1);
+        margin: 0px 50px 0px 50px;
+        padding: 20px;
+        font-family: "Montserrat";
+        background-color: rgba(246, 246, 246, 1);
         border-radius: 0px 0px 5px 5px;
-        p{
-            margin: 0;
-            padding: 30px;
-            font-size: 20px;
+        height: 0;
+        opacity: 0;
+        transition: 0.5s;
+
+        &.active {
+            height: unset;
+            opacity: 1;
         }
+
+        
     }
-}
