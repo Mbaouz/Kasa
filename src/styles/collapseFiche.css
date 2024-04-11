@@ -1,0 +1,39 @@
+.collapseF-item {
+  width: 582px;
+  height: 52px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 96, 96);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.collapseF-item h4 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+}
+.collapseF-item .arrow {
+  transition: 0.5s;
+}
+.collapseF-item .arrow.active {
+  transform: rotate(-180deg);
+}
+
+.collapseF-text {
+  margin: 0px 50px 0px 50px;
+  padding: 20px;
+  font-family: "Montserrat";
+  background-color: gray;
+  border-radius: 0px 0px 5px 5px;
+  height: 0;
+  opacity: 0;
+  transition: 0.5s;
+  width: 528px;
+}
+.collapseF-text.active {
+  height: unset;
+  opacity: 1;
+}/*# sourceMappingURL=collapseFiche.css.map */

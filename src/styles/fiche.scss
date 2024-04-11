@@ -1,26 +1,38 @@
 
 
 .carousel{
-margin-left: 50px;
-   
+
+display: block;
+margin: 50px;
 
  .carousel-img{
     display: flex;
-    flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+   
+  
+   
      img {
-
-display: flex;
-margin: 0 auto;
-border-radius: 25px;
-max-width: 1420px;
-width: 1240px;
-height: 415px;
-object-fit: cover;
+     
+   
+     border-radius: 25px;
+     max-width: 1420px;
+     height: 425px;
+     width: 100%;
+     object-fit: cover;
 
 
 
      }
+     #arrow-slide{
+
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      
+     
+     }
+         
 }
 
  .infos{
@@ -67,9 +79,20 @@ object-fit: cover;
 }
 
 
- .tags {
+ .tags-stars {
     display: flex;
-    gap:20px;
+    justify-content: space-between;
+
+    .tags{
+        display: flex;
+        gap: 10px;
+    }    
+    .stars{
+
+        display: flex;
+        gap: 5px; 
+    }
+
 
     .tag{
         background-color: rgba(255, 96, 96, 1);
@@ -79,6 +102,7 @@ object-fit: cover;
         width:115px;
         height: auto;
         justify-content: center;
+        padding: 2px;
         
     
         p{
@@ -106,46 +130,5 @@ object-fit: cover;
 }
 }
 
-//collapse fiche
 
 
-.collapse-item {
-    width: 582px;
-    height: 52px;
-    padding: 10px 20px 10px 10px;
-    border-radius: 10px ;
-    background-color:  rgba(255, 96, 96, 1);
-    margin-top: 20px;
-
-    h4 {
-        color: white;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-weight: 700;
-    }
-
-    .arrow {
-        transition: 0.5s;
-
-        &.active {
-            transform: rotate(-180deg)
-        }
-    }}
-
-
-
-
-.collapse-text {
-    margin: 0px 50px 0px 50px;
-    padding: 20px;
-    font-family: "Montserrat";
-    background-color: rgba(246, 246, 246, 1);
-    border-radius: 0px 0px 5px 5px;
-    height: 0;
-    opacity: 0;
-    transition: 0.5s;
-
-    &.active {
-        height: unset;
-        opacity: 1;
-    }}

@@ -1,0 +1,86 @@
+.carousel {
+  margin-left: 50px;
+}
+.carousel .carousel-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .carousel-img img {
+  margin: 0 auto;
+  border-radius: 25px;
+  max-width: 1420px;
+  width: 1240px;
+  height: 415px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel .carousel-img .arrowL {
+  position: absolute;
+  left: 130px;
+}
+.carousel .infos {
+  display: flex;
+  justify-content: space-between;
+}
+.carousel .infos h1 {
+  color: rgb(255, 96, 96);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 51.34px;
+  margin: 0;
+}
+.carousel .infos h2, .carousel .infos h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.67px;
+  margin-top: 0;
+}
+.carousel .infos h3 {
+  color: rgb(255, 96, 96);
+  margin-bottom: 0;
+}
+.carousel .info-host {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.carousel .info-host img {
+  border-radius: 50px;
+  width: 64px;
+  height: 64px;
+}
+.carousel .tags {
+  display: flex;
+  gap: 10px;
+}
+.carousel .tags .star {
+  gap: 5px;
+}
+.carousel .tags .tag {
+  background-color: rgb(255, 96, 96);
+  border-radius: 10px;
+  gap: 20px;
+  display: flex;
+  width: 115px;
+  height: auto;
+  justify-content: center;
+}
+.carousel .tags .tag p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.96px;
+  margin: 0;
+}
+.carousel .desc {
+  width: 582px;
+  height: 52px;
+  padding: 10px 20px 10px 10px;
+  border-radius: 10px;
+  background-color: rgb(255, 96, 96);
+  margin-top: 20px;
+}/*# sourceMappingURL=fiche.css.map */
