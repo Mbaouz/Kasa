@@ -38,16 +38,16 @@
 
 
 
-.collapseF-text {
-    margin: 0px 50px 0px 50px;
+.collapse-text {
+    margin: 0;
     padding: 20px;
     font-family: "Montserrat";
-    background-color:green;
+    background-color: rgba(246, 246, 246, 1)  ;
     border-radius: 0px 0px 5px 5px;
     height: 0;
     opacity: 0;
     transition: 0.5s;
-    width: 528px;
+    width: 570px;
     
 
     &.active {

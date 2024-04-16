@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1420px;
-    margin: 50px auto;
+    margin: 50px ;
     align-items: center;
 
     .nav {
@@ -12,6 +12,7 @@
         font-weight: 500;
         color: black;
         font-size: 24px;
+        margin-right: 10px;
 
         
         .accueil  {
@@ -35,5 +36,33 @@
             text-decoration: underline;
         }
 
+    }
+}
+
+
+@media (max-width:768px){
+
+
+    .header{
+       
+        margin:20px;
+
+        .nav {
+
+            gap:26px;
+            
+            .accueil  {
+                font-size: 12px;
+            }
+            .about{
+                font-size: 12px;
+            }
+        }
+
+        svg {
+
+            width: 145px;
+            height:47px;
+        }
     }
 }

@@ -4,13 +4,33 @@
     align-items: center;
     flex-direction: column;
     height: 209px;
-    margin: 30px 50px 30px 50px;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 1);
-    max-width: 1420px;
+   
 
     p {
         font-family: Montserrat;
         color: white;
         font-size: 24px;
+    }
+}
+
+
+
+@media (max-width : 768px){
+
+    .footer-contain{
+
+        p {
+            font-size: 12px;
+           
+            
+
+            span {
+             display: flex;
+             flex-wrap: wrap;
+
+            }
+        }
     }
 }
