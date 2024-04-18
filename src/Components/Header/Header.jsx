@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 
 const Header = () => {
-  const [active, setActive] = useState(false);
+  const [active] = useState(false);
   return (
     <div className='header'>
 
@@ -20,7 +20,7 @@ const Header = () => {
       
       <nav className='nav'>
         <NavLink className={"accueil" + ( active ? 'active':'')}    to="/">Accueil</NavLink>
-        <NavLink className={"about" + (active? 'active':'')} to="/about">A propos</NavLink>
+        <NavLink className={"about" + (active? 'active':'')} to="/about">A Propos</NavLink>
 
       </nav>
 
