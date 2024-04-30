@@ -5,6 +5,8 @@ import logList from '../../datas/logements.json';
 import './fiche.scss'
 import { FaStar } from "react-icons/fa";
 import { useParams } from 'react-router-dom'
+import Error from '../Error/Error'
+
 const Fiche = () => {
     const [index, setIndex] = useState(0)
     const { logementId } = useParams();
@@ -16,6 +18,7 @@ const Fiche = () => {
         "#E3E3E3",
     ];
     const logement = logList.find((logement) => logement.id === logementId);
+    if (!logement ){ return <div>{<Error/>}</div>};
     stars.fill('#FF6060', 0, logement.rating);
 
     const previous = () => { const NewIndex = (index===0)?logement.pictures.length - 1 : index - 1;
