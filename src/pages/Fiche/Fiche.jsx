@@ -31,6 +31,15 @@ const Fiche = () => {
 
                        };
 
+    const logEquipement = logement.equipments       // Afficher text equipements collapse en list
+    const equiList = logEquipement.map((equipment, index) => (     
+                        
+                           <div key={index}>{equipment}</div>
+                        
+                      ));
+
+                      
+
     return (
         <div className="carousel">
 
@@ -114,8 +123,11 @@ const Fiche = () => {
             
             <div className="collapse-fiche">
 
+
+            
+
             <Collapse  title="Description" description={logement.description} />
-            <Collapse  title="Equipements" description={logement.equipments} />
+            <Collapse  title="Equipements" description={equiList} />
              
             </div>
 
