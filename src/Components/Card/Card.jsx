@@ -15,10 +15,14 @@ const Card = () => {
       <div className='card-item'>
         {
           logList.map(logt => (
+           
             <Link to={"/fiche/" + logt.id} key={logt.id}>
-              <img src={logt.cover} alt={logt.title} />
-              <h3>{logt.title}</h3>
+              
+                 <img src={logt.cover} alt={logt.title} />
+                 <h2>{logt.title}</h2>
+              
             </Link>
+          
           ))
         }
       </div>

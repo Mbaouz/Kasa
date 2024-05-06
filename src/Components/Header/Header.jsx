@@ -6,7 +6,7 @@ import { useState } from 'react';
 const Header = () => {
   const [active] = useState(false);
   return (
-    <div className='header'>
+    <header className='header-contain'>
 
 
       <svg xmlns="http://www.w3.org/2000/svg" width="211" height="68" viewBox="0 0 211 68" fill="none">
@@ -27,7 +27,7 @@ const Header = () => {
 
 
 
-    </div>
+    </header>
   );
 };
 

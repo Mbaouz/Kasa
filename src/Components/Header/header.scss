@@ -1,4 +1,4 @@
-.header {
+.header-contain {
     display: flex;
     justify-content: space-between;
    
@@ -41,7 +41,7 @@
 @media (max-width:768px){
 
 
-    .header{
+    .header-contain{
        
         margin:20px;
 
